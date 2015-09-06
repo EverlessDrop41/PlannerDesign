@@ -1,0 +1,96 @@
+/* Custom.ccs By Tom Peregrine */
+
+html, body {
+	background-color: #B7B7B7;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px;
+}
+
+img {
+	width: 100%;
+}
+
+.tab-content {
+	background-color: white;
+	padding: 1%;
+}
+
+.nav-tabs>li>a {
+	border-radius: 10px 10px 0px 0px !important;
+	color: white !important;
+	background-color: #767676;
+	border-width: 0px;
+	transition: 0.3s;
+}
+
+.nav-tabs>li>a:hover {
+	background-color: #767676;
+	border-radius: 20px 20px 0px 0px !important;
+	border-width: 0px;
+}
+
+.nav-tabs>li.active>a {
+	border-radius: 20px 20px 0px 0px !important;
+	background-color: #373737 !important;
+	border-color: #373737 !important;
+	border-width: 0px !important;
+}
+
+.user-name {
+	color: white;
+}
+
+.label-admin {
+	background-color: #FD4F56;
+}
+
+.label-teacher {
+	background-color: #4F56FD;
+}
+
+.circle {
+	border-radius: 100%;
+}
+
+.main-content {
+	padding: 2%;
+}
+
+.navbar-dark {
+	background-color: #373737;
+	border-radius: 0px;
+	box-sizing: border-box;
+}
+
+.navbar h1 {
+	margin: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color: #fff;
+}
+
+.navbar h1 small {
+	color: #BEBEBE;
+}
+
+.navbar-right {
+	margin-right: 5px;
+}
+
+.navbar-btn {
+	background-color: #606060;
+	color: #fff;
+	border-width: 0px;
+	border-radius: 1000px;
+	transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .navbar-dark .navbar-btn {
+    width: 98%;
+	margin-left: 1%;
+  }
+}

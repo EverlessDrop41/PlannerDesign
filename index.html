@@ -1,0 +1,66 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bootstrap Testing</title>
+
+		<!--Font-->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400:100' rel='stylesheet' type='text/css'>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!--Custom CSS-->
+		<link rel="stylesheet" type="text/css" href="custom.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-dark">
+			<h1 class="navbar-text">
+		  		Planner Platform <small>School Name</small>
+		    </h1>
+
+		    <button type="button" class="btn btn-default navbar-btn navbar-right">
+		    	Log In
+		    </button>
+		</nav>
+ 
+		<div class="container-fluid main-content">
+			<div class="row">
+			  <div class="col-md-2">
+				<img class="circle" src="https://en.gravatar.com/userimage/74473472/a94a6a488a070990787629a41114f577.png?size=500">
+			  </div>
+			  <div class="col-md-10">
+				<h1 class="user-name">John Smith</h1> <br>
+				<h3 class="label-list">
+				  <span class="label label-admin">Admin</span>
+				  <span class="label label-teacher">Teacher</span>
+				</h3>
+			  </div>
+			</div>
+
+			<br>
+
+			<div class="row">
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#classes" aria-controls="classes" role="tab" data-toggle="tab">Classes</a></li>
+			    <li role="presentation"><a href="#subjects" aria-controls="subjects" role="tab" data-toggle="tab">Subjects</a></li>
+			    <li role="presentation"><a href="#timetables" aria-controls="timetables" role="tab" data-toggle="tab">Timetables</a></li>
+			    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="classes">Classes</div>
+			    <div role="tabpanel" class="tab-pane" id="subjects">Hello</div>
+			    <div role="tabpanel" class="tab-pane" id="timetables">Timetables</div>
+			    <div role="tabpanel" class="tab-pane" id="settings">Settings</div>
+			  </div>
+
+			</div>
+		</div>
+	</body>
+</html>
