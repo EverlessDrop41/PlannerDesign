@@ -99,4 +99,20 @@ dt {
     width: 98%;
 	margin-left: 1%;
   }
+
+  .main-content {
+    padding: 5%;
+  }
+
+  .nav-tabs>li>a {
+		border-radius: 0px !important;
+	}
+
+	.nav-tabs>li>a:hover {
+		border-radius: 0px!important;
+	}
+
+	.nav-tabs>li.active>a {
+		border-radius: 0px!important;
+	}
 }
