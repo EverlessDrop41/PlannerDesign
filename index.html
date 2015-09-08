@@ -127,10 +127,29 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>Monday</td> <td>Geography</td> <td>PE</td> <td>Maths</td> <td>Physics</td> <td>History</td>
+								<td>Monday</td> 
+								<td>
+									<span class="timetable-popover" data-toggle="popover" data-trigger="hover" 
+									data-original-title="10C Geography" data-content="Teacher: Mr Bishop<br/>Room: N17">
+										Geography
+									</span>
+								</td> 
+								<td>
+									<span class="timetable-popover" data-toggle="popover" data-trigger="hover" 
+									data-original-title="10J1 PE" data-content="Teacher: Mr Banwell <br/> Room: N/A">
+										PE
+									</span>
+								</td> <td>Maths</td> <td>Physics</td> <td>History</td>
 							</tr>
 							<tr>
-								<td>Tuesday</td> <td>Geography</td> <td>Maths</td> <td>Computing</td> <td>Chemistry</td> <td>Buisness</td>
+								<td>Tuesday</td> 
+								<td>
+									<span class="timetable-popover" data-toggle="popover" data-trigger="hover" 
+									data-original-title="10C Geography" data-content="Teacher: Mrs Thompson<br/>Room: N16">
+										Geography
+									</span>
+								</td> 
+								<td>Maths</td> <td>Computing</td> <td>Chemistry</td> <td>Buisness</td>
 							</tr>
 							<tr>
 								<td>Wednesdy</td> <td>Computing</td> <td>PE</td> <td>Maths</td> <td>English</td> <td>History</td>
@@ -143,6 +162,10 @@
 							</tr>
 						</tbody>
 					</table>
+
+					<script type="text/javascript">
+					$('.timetable-popover').popover({html: true});
+					</script>
 
 					<table class="table table-bordered table-responsive">
 						<thead>
