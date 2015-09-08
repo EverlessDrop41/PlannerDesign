@@ -129,8 +129,8 @@
 							<tr>
 								<td>Monday</td> 
 								<td>
-									<span class="timetable-popover" data-toggle="popover" data-trigger="hover" 
-									data-original-title="10C Geography" data-content="Teacher: Mr Bishop<br/>Room: N17">
+									<span data-toggle="tooltip" data-trigger="hover" 
+									data-original-title="10C Geography<br/>Teacher: Mr Bishop<br/>Room: N17">
 										Geography
 									</span>
 								</td> 
@@ -165,6 +165,9 @@
 
 					<script type="text/javascript">
 					$('.timetable-popover').popover({html: true});
+          $(function () {
+            $('[data-toggle="tooltip"]').tooltip({html: true});
+          })
 					</script>
 
 					<table class="table table-bordered table-responsive">
